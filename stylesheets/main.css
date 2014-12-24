@@ -13,10 +13,14 @@ header {
     padding: 5% 0 0 0;
     /* background: color url repeat pos1 pos2;*/
 }
+h1 {
+    border-bottom: 0.25em solid #400040;
+}
 header h1 {
     font-size: 300%;
     margin: 0 auto 2.5% auto;
     width: 60%;
+    border: none;
 }
 header .tagline, header .contact {
     font-size: 150%;
@@ -30,22 +34,38 @@ header .tagline strong,header .tagline em{
 nav {
     background: #400040;
 }
+nav div {
+    margin: 0 auto 1% auto;
+    width: 60%;
+    font-size: 125%;
+}
+nav div a {
+    margin: 0 0 0 1%;
+}
 li {
     list-style-type: none;
 }
 a {
     color: #eee;
-    font-weight: nromal;
+    font-weight: normal;
     text-decoration: none;
 }
 a:hover {
     color: #a050a0;
     text-decoration: underline;
 }
+.contact .item{
+    float: right;
+}
 .contact img {
     height: 1em;
+    width: auto;
     padding-right: 1%;
 }
 .contact a {
     margin-right: 5%;
+}
+.portfolio, .work.experience, .education, .additional.information {
+    margin: 0 auto 1% auto;
+    width: 60%;
 }
