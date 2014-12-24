@@ -1,0 +1,51 @@
+/* main.css */
+html, body, header, nav, h1, h2, h3, h4, h5, h6, p, div, ul, ol, li {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    font: inherit;
+    font-size: 100%;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+header {
+    background: #252525;
+    color: #eee;
+    padding: 5% 0 0 0;
+    /* background: color url repeat pos1 pos2;*/
+}
+header h1 {
+    font-size: 300%;
+    margin: 0 auto 2.5% auto;
+    width: 60%;
+}
+header .tagline, header .contact {
+    font-size: 150%;
+    margin: 0 auto 1% auto;
+    width: 60%;
+    font-weight: 100;
+}
+header .tagline strong,header .tagline em{
+    font-weight: 400;
+}
+nav {
+    background: #400040;
+}
+li {
+    list-style-type: none;
+}
+a {
+    color: #eee;
+    font-weight: nromal;
+    text-decoration: none;
+}
+a:hover {
+    color: #a050a0;
+    text-decoration: underline;
+}
+.contact img {
+    height: 1em;
+    padding-right: 1%;
+}
+.contact a {
+    margin-right: 5%;
+}
