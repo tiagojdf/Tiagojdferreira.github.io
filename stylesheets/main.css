@@ -10,37 +10,94 @@ html, body, header, nav, h1, h2, h3, h4, h5, h6, p, div, ul, ol, li {
 header {
     background: #252525;
     color: #eee;
-    padding: 5% 0 0 0;
+    padding: 2% 0 0 0;
+    width: 100%;
     /* background: color url repeat pos1 pos2;*/
-}
-h1 {
-    border-bottom: 0.25em solid #400040;
+    /*position:fixed;
+    */
+    display: block;
 }
 header h1 {
     font-size: 300%;
+    font-weight: normal;
     margin: 0 auto 2.5% auto;
-    width: 60%;
+    width: 50%;
     border: none;
 }
 header .tagline, header .contact {
     font-size: 150%;
     margin: 0 auto 1% auto;
-    width: 60%;
+    width: 50%;
     font-weight: 100;
 }
 header .tagline strong,header .tagline em{
     font-weight: 400;
 }
+article {
+    margin-bottom: 2.5%;
+}
+aside {
+    float: left;
+    position: fixed;
+    width: 20%;
+    margin: 0 2.5%;
+}
+aside p {
+    float: left;
+    margin-right: 1%;
+    margin-bottom: 1%;
+    padding: 0 1em 0 1em;
+    border: 0.2em solid #c070c0;
+    border-radius: 0.5em; 
+    color: #ffffff;
+    background: #a050a0;
+}
+aside h1 {
+    border: none;
+}
+h1 {
+    border-bottom: 0.1em solid #c070c0;
+    font-size: 150%;
+    font-weight: 400;
+    margin-bottom: 1%;
+}
+p {
+    line-height: 2em;
+}
+
+
 nav {
-    background: #400040;
+    background: #703070;
 }
 nav div {
-    margin: 0 auto 1% auto;
-    width: 60%;
+    margin: 0 auto 0 auto;
+    width: 50%;
     font-size: 125%;
 }
 nav div a {
     margin: 0 0 0 1%;
+}
+main {
+    display: block;
+    width: auto;
+    margin: 1% auto 1% auto;
+    width: 50%;   
+}
+footer {
+    font-size: 150%;
+    margin: 0 auto 0 auto;
+    font-weight: 100;
+    text-align: center;
+    background: #252525;
+    color: #eee;
+    
+}
+footer p {
+    padding: 1em;
+}
+footer div {
+    height: 1em;
+    background: #703070;
 }
 li {
     list-style-type: none;
@@ -64,8 +121,4 @@ a:hover {
 }
 .contact a {
     margin-right: 5%;
-}
-.portfolio, .work.experience, .education, .additional.information {
-    margin: 0 auto 1% auto;
-    width: 60%;
 }
