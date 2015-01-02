@@ -68,6 +68,7 @@ p {
 
 nav {
     background: #703070;
+    border-bottom: .2em solid #c070c0;
 }
 nav div {
     margin: 0 auto 0 auto;
@@ -121,4 +122,10 @@ a:hover {
 }
 .contact a {
     margin-right: 5%;
+}
+.portfolio article img{
+    border: solid #c070c0;
+    border-radius: 1em;
+    width: 50%;
+    min-width: 400px;
 }
