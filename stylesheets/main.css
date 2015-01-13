@@ -33,6 +33,9 @@ header .tagline, header .contact {
 header .tagline strong,header .tagline em{
     font-weight: 400;
 }
+body {
+    background: #eee;
+}
 article {
     margin-bottom: 2.5%;
 }
@@ -49,7 +52,7 @@ aside p {
     padding: 0 1em 0 1em;
     border: 0.2em solid #9f425f;
     border-radius: 0.5em; 
-    color: #ffffff;
+    color: #eee;
     background: #5f021f;
 }
 aside h1 {
@@ -128,4 +131,41 @@ a:hover {
     border-radius: 1em;
     width: 50%;
     min-width: 400px;
+}
+@media screen and (orientation: portrait) {
+    header .tagline, header .contact {
+        width: 90%;
+        text-align: left;
+        padding-bottom: 1%;
+    }
+    
+    header .contact{
+        background: #505050;
+        width: inherit;
+        padding: 1% 0%;
+        text-align: center;
+        margin: 0 0 0 0;
+    }
+    nav div {
+        width: inherit;
+        padding: 1% 0%;
+        text-align: center;
+    }
+    main {
+        width: 90%;
+    }
+    aside {
+        width: 90%;
+        position: relative;
+        float: none;
+        margin: 1% auto 12% auto;
+    }
+    main {
+        position: relative;
+        float: none;
+        margin: 0 auto 0 auto;
+    }
+    .portfolio article img {
+        width: 90%;
+    }
 }
