@@ -1,174 +1,206 @@
 /* main.css */
+/* line 2, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
 html, body, header, nav, h1, h2, h3, h4, h5, h6, p, div, ul, ol, li {
-    padding: 0;
-    border: 0;
-    margin: 0;
-    font: inherit;
-    font-size: 100%;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
+  padding: 0;
+  border: 0;
+  margin: 0;
+  font: inherit;
+  font-size: 100%;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+
+/* line 10, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
 header {
-    background: #252525;
-    color: #eee;
-    padding: 2% 0 0 0;
-    width: 100%;
-    /* background: color url repeat pos1 pos2;*/
-    /*position:fixed;
+  background: #252525;
+  color: #eee;
+  padding: 2% 0 0 0;
+  width: 100%;
+  /* background: color url repeat pos1 pos2;*/
+  /*position:fixed;
     */
-    display: block;
-}
+  display: block; }
+
+/* line 20, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
 header h1 {
-    font-size: 300%;
-    font-weight: normal;
-    margin: 0 auto 2.5% auto;
-    width: 50%;
-    border: none;
-}
+  font-size: 300%;
+  font-weight: normal;
+  margin: 0 auto 2.5% auto;
+  width: 50%;
+  border: none; }
+
+/* line 27, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
 header .tagline, header .contact {
-    font-size: 150%;
-    margin: 0 auto 1% auto;
-    width: 50%;
-    font-weight: 100;
-}
-header .tagline strong,header .tagline em{
-    font-weight: 400;
-}
+  font-size: 150%;
+  margin: 0 auto 1% auto;
+  width: 50%;
+  font-weight: 100; }
+
+/* line 33, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
+header .tagline strong, header .tagline em {
+  font-weight: 400; }
+
+/* line 36, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
 body {
-    background: #eee;
-}
+  background: #eee; }
+
+/* line 39, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
 article {
-    margin-bottom: 2.5%;
-}
+  margin-bottom: 2.5%; }
+
+/* line 42, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
 aside {
-    float: left;
-    position: fixed;
-    width: 20%;
-    margin: 0 2.5%;
-}
+  float: left;
+  position: fixed;
+  width: 20%;
+  margin: 0 2.5%; }
+
+/* line 48, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
 aside p {
-    float: left;
-    margin-right: 1%;
-    margin-bottom: 1%;
-    padding: 0 1em 0 1em;
-    border: 0.2em solid #9f425f;
-    border-radius: 0.5em; 
-    color: #eee;
-    background: #5f021f;
-}
+  float: left;
+  margin-right: 1%;
+  margin-bottom: 1%;
+  padding: 0 1em 0 1em;
+  border: 0.2em solid #9f425f;
+  border-radius: 0.5em;
+  color: #eee;
+  background: #5f021f; }
+
+/* line 58, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
 aside h1 {
-    border: none;
-}
+  border: none; }
+
+/* line 61, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
 h1 {
-    border-bottom: 0.1em solid #9f425f;
-    font-size: 150%;
-    font-weight: 400;
-    margin-bottom: 1%;
-}
+  border-bottom: 0.1em solid #9f425f;
+  font-size: 150%;
+  font-weight: 400;
+  margin-bottom: 1%; }
+
+/* line 67, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
 p {
-    line-height: 2em;
-}
+  line-height: 2em; }
 
-
+/* line 72, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
 nav {
-    background: #5f021f;
-    border-bottom: .2em solid #9f425f;
-}
+  background: #5f021f;
+  border-bottom: 0.2em solid #9f425f; }
+
+/* line 76, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
 nav div {
-    margin: 0 auto 0 auto;
-    width: 50%;
-    font-size: 125%;
-}
+  margin: 0 auto 0 auto;
+  width: 50%;
+  font-size: 125%; }
+
+/* line 81, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
 nav div a {
-    margin: 0 0 0 1%;
-}
+  margin: 0 0 0 1%; }
+
+/* line 84, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
 main {
-    display: block;
-    width: auto;
-    margin: 1% auto 1% auto;
-    width: 50%;   
-}
+  display: block;
+  width: auto;
+  margin: 1% auto 1% auto;
+  width: 50%; }
+
+/* line 90, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
 footer {
-    font-size: 150%;
-    margin: 0 auto 0 auto;
-    font-weight: 100;
-    text-align: center;
-    background: #252525;
-    color: #eee;
-    
-}
+  font-size: 150%;
+  margin: 0 auto 0 auto;
+  font-weight: 100;
+  text-align: center;
+  background: #252525;
+  color: #eee; }
+
+/* line 99, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
 footer p {
-    padding: 1em;
-}
+  padding: 1em; }
+
+/* line 102, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
 footer div {
-    height: 1em;
-    background: #5f021f;
-}
+  height: 1em;
+  background: #5f021f; }
+
+/* line 106, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
 li {
-    list-style-type: none;
-}
+  list-style-type: none; }
+
+/* line 109, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
 a {
-    color: #eee;
-    font-weight: normal;
-    text-decoration: none;
-}
+  color: #eee;
+  font-weight: normal;
+  text-decoration: none; }
+
+/* line 114, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
 a:hover {
-    color: #a050a0;
-    text-decoration: underline;
-}
-.contact .item{
-    float: right;
-}
+  color: #a050a0;
+  text-decoration: underline; }
+
+/* line 118, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
+.contact .item {
+  float: right; }
+
+/* line 121, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
 .contact img {
-    height: 1em;
-    width: auto;
-    padding-right: 1%;
-}
+  height: 1em;
+  width: auto;
+  padding-right: 1%; }
+
+/* line 126, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
 .contact a {
-    margin-right: 5%;
+  margin-right: 5%; }
+
+/* line 129, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
+.portfolio article img {
+  border: solid #9f425f;
+  border-radius: 1em;
+  width: 100%;
+  min-width: 400px; }
+.article-item {
+    float: left;
 }
-.portfolio article img{
-    border: solid #9f425f;
-    border-radius: 1em;
-    width: 50%;
-    min-width: 400px;
-}
+
 @media screen and (orientation: portrait) {
-    header .tagline, header .contact {
-        width: 90%;
-        text-align: left;
-        padding-bottom: 1%;
-    }
-    
-    header .contact{
-        background: #505050;
-        width: inherit;
-        padding: 1% 0%;
-        text-align: center;
-        margin: 0 0 0 0;
-    }
-    nav div {
-        width: inherit;
-        padding: 1% 0%;
-        text-align: center;
-    }
-    main {
-        width: 90%;
-    }
-    aside {
-        width: 90%;
-        position: relative;
-        float: none;
-        margin: 1% auto 1% auto;
-    }
-    main {
-        clear: both;
-        position: relative;
-        float: none;
-        margin: 0 auto 0 auto;
-    }
-    main 
-    .portfolio article img {
-        width: 90%;
-        min-width: 128px;
-    }
-}
+  /* line 136, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
+  header .tagline, header .contact {
+    width: 100%;
+    text-align: left;
+    padding-bottom: 1%; }
+
+  /* line 142, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
+  header .contact {
+    background: #505050;
+    width: inherit;
+    padding: 1% 0%;
+    text-align: center;
+    margin: 0 0 0 0; }
+
+  /* line 149, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
+  nav div {
+    width: inherit;
+    padding: 1% 0%;
+    text-align: center; }
+
+  /* line 154, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
+  main {
+    width: 90%; }
+
+  /* line 157, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
+  aside {
+    width: 90%;
+    position: relative;
+    float: none;
+    margin: 1% auto 1% auto; }
+
+  /* line 163, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
+  main {
+    clear: both;
+    position: relative;
+    float: none;
+    margin: 0 auto 0 auto; }
+
+  /* line 170, /Users/tiagoferreira/Google Drive/html/Tiagojdferreira.github.io/stylesheets/main.scss */
+  main .portfolio article img {
+    width: 90%;
+    min-width: 128px; }
+ }
+
+/*# sourceMappingURL=main.css.map */
